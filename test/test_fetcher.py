@@ -10,7 +10,8 @@ class TestCase(unittest.TestCase):
 
     #@unittest.skip('skip')
     def test_fetch(self):
-        fetcher.fetch('../logs/00_filter.log')
+        #fetcher.fetch('../logs/00_filter.log')
+        fetcher.fetch('../logs/1_filter.log')
         self.assertTrue(True)
 
     @unittest.skip('skip')
